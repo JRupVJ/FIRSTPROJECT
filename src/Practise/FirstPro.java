@@ -7,6 +7,7 @@ public class FirstPro {
 		System.out.println("Hello World!");
 		System.out.println("SYSO");
 		System.out.println("new statement");
+		System.out.println("new line");
 	}
 
 }
