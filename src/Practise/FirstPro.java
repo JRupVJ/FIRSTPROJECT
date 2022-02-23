@@ -13,9 +13,9 @@ public class FirstPro {
 		System.out.println("new line");
 		
 		Scanner myObj = new Scanner(System.in);
-		System.out.println("Enter User Name");
+		System.out.println("Enter User Name: ");
 		String userName = myObj.nextLine();
-		System.out.println("User name is: " + userName);
+		System.out.println("User name is: " + " " + userName);
 			
 	}
 
