@@ -2,7 +2,13 @@ package Practise;
 
 import java.util.*;
 
-public class FirstPro {
+class DispSub{
+	public void dispName() {
+		System.out.println("Sub class: Name 1");
+	}
+}
+
+public class FirstPro extends DispSub{
 	
 
 	public static void main(String[] args) {
@@ -16,6 +22,9 @@ public class FirstPro {
 		System.out.println("Enter User Name: ");
 		String userName = myObj.nextLine();
 		System.out.println("User name is: " + " " + userName);
+		
+		FirstPro myMainObj = new FirstPro();
+		myMainObj.dispName();
 			
 	}
 
